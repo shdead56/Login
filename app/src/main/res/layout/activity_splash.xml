@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C280CD"
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="416dp"
+        android:layout_height="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="197dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="BRAIN"
+        android:textColor="#754052"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="234dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="Awareness"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.322"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="193dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="604dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:text="WEEK"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/generatedtext"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="-23dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
